@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.magung.utsandroidagung.MainActivity">
+    <item
+        android:id="@+id/m_semua"
+        android:orderInCategory="100"
+        android:title="Semua Pekerjaan"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/m_belum"
+        android:orderInCategory="100"
+        android:title="Pekerjaan Belum Selesai"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/m_selesai"
+        android:orderInCategory="100"
+        android:title="Pekerjaan Selesai"
+        app:showAsAction="never" />
+</menu>
